@@ -1,0 +1,207 @@
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #e3eaf8 ;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 300px;
+    background-color: #F5F5F5;
+}
+.notesapp{
+    color: #203562;
+    text-align: center;
+    margin-top: 50px;
+}
+.notesbuttn{
+    background-color: #203562;
+    color: white;
+    font-size: x-large;
+    text-align: justify;
+    border: 0px;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.notesbuttn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.notesicon{
+    /* margin-right: 150px; */
+    margin-top: 0px;
+}
+.content{
+    margin-left: 15px;
+}
+.notesapp{
+    font-family: 'Montserrat', sans-serif;
+}
+.create{
+    height: 300px;
+    width: 700px;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    margin-left: 320px;
+    position: absolute;
+    /* margin-bottom: 250px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title{
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+
+h2{
+    color: #203562;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.addnote{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #203562;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+.addnotebtn{
+    background-color: #203562;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    margin-left: 550px;
+}
+.addnotebtn:hover{
+    transform: scale(1.2);
+}
+input{
+    margin-left: 30px;
+}
+
+.text{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.mynote{
+    margin-top: 70px;
+    font-size: 15px;
+}
+.date{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 400px;
+    margin-left: 320px;
+   
+}
+.card{
+    background-color: #F5F5F5;
+    height: 180px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.tit{
+    color: #203562;
+    margin-left: 20px; 
+    /* margin-top: 50px; */
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.para{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.footer_2{
+    margin-top: 28px;
+    margin-left: 20px;
+}
+.footer_3{
+    margin-top: 28px;
+    margin-left: 20px;
+}
+.recent{
+    margin-top: 10px;
+    font-size: small;
+    margin-left: 5px;
+}
+.edit{
+    margin-left: 150px;
+    color: #203562;
+
+    
+    
+
+}
+.delete{
+    margin-left: 10px;
+    color: #203562;
+    /* margin-top: 10px; */
+
+}
+.dltbtn{
+    border: none;
+    background-color: transparent;
+}
+.dltbtn:hover{
+    transform: scale(1.2);
+}
+.editbtn{
+    border: none;
+    background-color: transparent;
+
+}
+.editbtn:hover{
+    transform: scale(1.05);
+}
+.addnotebtn1{
+    background-color: #203562;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 130px;
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.createedit{
+    height: 300px;
+    width: 700px;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    margin-left: 400px;
+    margin-top: 150px;
+    position: absolute;
+    /* margin-bottom: 250px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.edited{
+margin-left: 650px;
+color: #203562;
+position: absolute;
+margin-top: 90px;
+}
+.editpage{
+    position: relative;
+}
