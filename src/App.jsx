@@ -43,8 +43,7 @@ const details = [
         </Provider>
 
         
-        {dialog&&deleteid? <Dialog id ={deleteid} deletebyid={deletebyid}/>: "" 
-        }
+        
       </div>
 
 
